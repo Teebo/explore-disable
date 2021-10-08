@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ssr-test"
+    }
+  },
+  "defaultProject": "ssr-test",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,10 @@
+Investec market place sdk?.
+
+@investec/marketplace-sdk - for getting investec client details/data
+end- points - Promise based
+npmrc in project so that we can use the sdk - npm package is private
+
+
+Developer portal? Will us push an app or version of an app to a segment fo clients example wealth clients
+
+Investec connect

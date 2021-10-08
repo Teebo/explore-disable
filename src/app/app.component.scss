@@ -1,0 +1,38 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: fit-content;
+  align-items: center;
+
+
+  input {
+    margin-bottom: 8px;
+    width: 250px;
+    height: 45px;
+    border-radius: 3px;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+
+    &:read-only {
+      color: rgb(84, 84, 84);
+      cursor: default;
+      background-color: rgba(239, 239, 239, 0.3);
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  button {
+    background-color: dodgerblue;
+    border-radius: 3px;
+    width: 265px;
+    height: 45px;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
